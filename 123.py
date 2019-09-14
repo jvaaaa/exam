@@ -51,10 +51,10 @@ print(x)
 if x==1:
 	print('凯撒解密中')
 	L=input('请输入暗文：')
-	n=int(input('请输入位移数(默认为3)：'))
+	n=int(input('请输入位移数：'))
 	print(unlock(L,n))
 elif x==2:
 	print('凯撒加密中')
 	L=input('请输入明文：')
-	n=int(input('请输入位移数(默认为3)：'))
+	n=int(input('请输入位移数：'))
 	print(lock(L,n))
